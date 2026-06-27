@@ -109,6 +109,7 @@ on the machine running Kira.
   file…** and pick [`hello-world.kext`](hello-world.kext). Review the source at
   the trust gate, then click any action button.
 - **Drag & drop:** drop `hello-world.kext` onto the Extensions screen.
+- **From GitHub:** download and install directly from [kira-extensions](https://github.com/thiennguyen93/kira-extensions/raw/main/hello-world/hello-world.kext).
 
 Because every action is `contextMode: "none"`, you won't be asked for an account —
 just click a button and watch.
