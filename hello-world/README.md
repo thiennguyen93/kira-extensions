@@ -12,6 +12,12 @@ extension never asks for an account, a role or a secret — it just runs.
 > [extension development guide](https://docs.kira.thiennguyen.dev/extension-development/overview),
 > then come back and read these actions as worked examples.
 
+**📦 Install Hello World** — in Kira go to **Extensions → Install extension → From a URL** and paste the link below (Kira downloads it for you; nothing to save to your machine first):
+
+```
+https://github.com/thiennguyen93/kira-extensions/raw/main/hello-world/hello-world.kext
+```
+
 ## The actions
 
 | Button | SDK it shows off | What it does |
@@ -109,7 +115,9 @@ on the machine running Kira.
   file…** and pick [`hello-world.kext`](hello-world.kext). Review the source at
   the trust gate, then click any action button.
 - **Drag & drop:** drop `hello-world.kext` onto the Extensions screen.
-- **From GitHub:** download and install directly from [kira-extensions](https://github.com/thiennguyen93/kira-extensions/raw/main/hello-world/hello-world.kext).
+- **From a URL (no download):** go to **Extensions → Install extension → From a URL** and paste
+  `https://github.com/thiennguyen93/kira-extensions/raw/main/hello-world/hello-world.kext`.
+  Kira fetches it over `https`, shows the source at the trust gate, then installs.
 
 Because every action is `contextMode: "none"`, you won't be asked for an account —
 just click a button and watch.

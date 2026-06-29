@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree *)",
+      "Bash(set -e)",
+      "Bash(git reset *)",
+      "Bash(git reflog *)",
+      "Bash(git gc *)",
+      "Bash(git rev-list *)",
+      "Bash(git push *)",
+      "WebFetch(domain:docs.kira.thiennguyen.dev)"
+    ]
+  }
+}
